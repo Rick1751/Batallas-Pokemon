@@ -57,7 +57,7 @@ public class Pokemon {
     // Constructor cualquier pokemon con caracteristicas completas
     Pokemon(String nombre, String tipo, String color, int nivel, int vida,
             int generacion, int edad, double altura, double peso,
-            boolean puedeEvolucionar, double nivelEvolucion, String nombreEvolucion,
+            boolean puedeEvolucionar, double nivelEvolucion, int nombreEvolucion2,
             int ataque, int defensa, String ataqueEspecial, String defensaEspecial,
             int velocidad, int experiencia) {
 
