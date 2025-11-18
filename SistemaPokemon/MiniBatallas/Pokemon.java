@@ -4,29 +4,29 @@ public class Pokemon {
 
     // Atributos del Padre ATRIBUTOS BASICOS
 
-    protected String nombre;
-    protected String tipo;
-    protected String color;
-    protected int nivel;
-    protected int vida;
-    protected int generacion;
-    protected int edad;
-    protected double altura;
-    protected double peso;
+    private String nombre;
+    private String tipo;
+    private String color;
+    private int nivel;
+    private int vida;
+    private int generacion;
+    private int edad;
+    private double altura;
+    private double peso;
 
     // Atributos del Padre ATRIBUTOS EVOLUTIVOS
-    protected boolean puedeEvolucionar;
-    protected double nivelEvolucion;
-    protected String nombreEvolucion;
+    private boolean puedeEvolucionar;
+    private double nivelEvolucion;
+    private String nombreEvolucion;
 
     // Atributos del Padre ATRIBUTOS COMBATE
 
-    protected int ataque;
-    protected int defensa;
-    protected String ataqueEspecial;
-    protected String defensaEspecial;
-    protected int velocidad;
-    protected int experiencia;
+    private int ataque;
+    private int defensa;
+    private String ataqueEspecial;
+    private String defensaEspecial;
+    private int velocidad;
+    private int experiencia;
 
     // Constructor VACIO Pokemon desconocido
     
@@ -112,5 +112,5 @@ public class Pokemon {
         System.out.println("Experiencia: " + experiencia);
     }
 
-
 }
+
