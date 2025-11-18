@@ -5,7 +5,7 @@ public class main {
     public static void main(String[] args) {
 
         //Creacion de un pokemon electrico Pikachu
-        PokemonElectrico pikachu = new PokemonElectrico("Pikachu", "Amarillo",
+        Pikachu pikachu = new Pikachu("Pikachu", "Amarillo",
          0, 30, 1, 1, 70, 22, true,
         0, "Raichu",
         5, 3, "Impact Trueno", null, 
@@ -22,7 +22,10 @@ public class main {
         System.out.println("--------------------------------------------------------------------------------");
 
         pikachu.sayInfo();
-        magnemite.sayInfo();
+        pikachu.atacar();
+        pikachu.moverse();
+        
+        //magnemite.sayInfo();
         
         
 

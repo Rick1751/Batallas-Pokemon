@@ -29,7 +29,7 @@ public class Pokemon {
     private int experiencia;
 
     // Constructor VACIO Pokemon desconocido
-    
+
     Pokemon() {
         this.nombre = null;
         this.tipo = null;
@@ -110,6 +110,153 @@ public class Pokemon {
         System.out.println("Defensa Especial: " + defensaEspecial);
         System.out.println("Velocidad: " + velocidad);
         System.out.println("Experiencia: " + experiencia);
+    }
+
+
+//Getters and setters 
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public void setVida(int vida) {
+        this.vida = vida;
+    }
+
+    public int getGeneracion() {
+        return generacion;
+    }
+
+    public void setGeneracion(int generacion) {
+        this.generacion = generacion;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public boolean isPuedeEvolucionar() {
+        return puedeEvolucionar;
+    }
+
+    public void setPuedeEvolucionar(boolean puedeEvolucionar) {
+        this.puedeEvolucionar = puedeEvolucionar;
+    }
+
+    public double getNivelEvolucion() {
+        return nivelEvolucion;
+    }
+
+    public void setNivelEvolucion(double nivelEvolucion) {
+        this.nivelEvolucion = nivelEvolucion;
+    }
+
+    public String getNombreEvolucion() {
+        return nombreEvolucion;
+    }
+
+    public void setNombreEvolucion(String nombreEvolucion) {
+        this.nombreEvolucion = nombreEvolucion;
+    }
+
+    public int getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(int ataque) {
+        this.ataque = ataque;
+    }
+
+    public int getDefensa() {
+        return defensa;
+    }
+
+    public void setDefensa(int defensa) {
+        this.defensa = defensa;
+    }
+
+    public String getAtaqueEspecial() {
+        return ataqueEspecial;
+    }
+
+    public void setAtaqueEspecial(String ataqueEspecial) {
+        this.ataqueEspecial = ataqueEspecial;
+    }
+
+    public String getDefensaEspecial() {
+        return defensaEspecial;
+    }
+
+    public void setDefensaEspecial(String defensaEspecial) {
+        this.defensaEspecial = defensaEspecial;
+    }
+
+    public int getVelocidad() {
+        return velocidad;
+    }
+
+    public void setVelocidad(int velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public int getExperiencia() {
+        return experiencia;
+    }
+
+    public void setExperiencia(int experiencia) {
+        this.experiencia = experiencia;
     }
 
 }

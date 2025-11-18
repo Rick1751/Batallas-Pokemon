@@ -15,6 +15,4 @@ public class PokemonElectrico extends Pokemon {
 
 
 
-    
-
 }
