@@ -14,6 +14,7 @@ public class magnemite extends PokemonElectrico {
      public void moverse(){
         setVelocidad(2);
         System.out.println("Estoy atacando a una velocidad de: "+ getVelocidad());
+         //comentario de git hub :)
     }
 
     public void atacar(){
