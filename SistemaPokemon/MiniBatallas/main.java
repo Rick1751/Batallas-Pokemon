@@ -12,7 +12,7 @@ public class main {
         2, 0);
 
         //Creacion de un pokemon electrico magnemite
-        PokemonElectrico magnemite = new PokemonElectrico("Magnemite", "Gris", 
+        magnemite magnemite = new magnemite("Magnemite", "Gris", 
         0, 25, 1, 1, 6.0, 22, true, 30.0, "Magneton",
         10, 4, "Rayo", "Supersónico",
         45, 0);
@@ -26,8 +26,11 @@ public class main {
         pikachu.moverse();
         
         //magnemite.sayInfo();
+        magnemite.sayInfo();
+        magnemite.atacar();
+        magnemite.moverse();
         
-        
+       
 
     }
 }
